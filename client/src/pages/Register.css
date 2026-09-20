@@ -1,0 +1,72 @@
+.register-page {
+  min-height: 100vh;
+  background: #FFF0F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.register-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(232, 66, 106, 0.1);
+}
+
+.register-title {
+  font-size: 22px;
+  color: #C22050;
+  margin-bottom: 4px;
+}
+
+.register-sub {
+  font-size: 13px;
+  color: #B0708A;
+  margin-bottom: 20px;
+}
+
+.register-error {
+  background: #FFE0E0;
+  color: #C02020;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.avatar-row {
+  display: flex;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.avatar-option {
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-option.selected {
+  border-color: #E8426A;
+}
+
+.register-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #B0708A;
+  margin-top: 16px;
+}
+
+.register-bottom a {
+  color: #E8426A;
+  text-decoration: none;
+}

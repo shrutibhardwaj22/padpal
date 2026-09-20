@@ -1,0 +1,112 @@
+.my-request-card {
+  background: white;
+  border-radius: 14px;
+  border: 1px solid #F0C0CC;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.my-request-card .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.my-request-card .items {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.my-request-card .item-tag {
+  background: #FFF0F5;
+  border: 1px solid #F0C0CC;
+  color: #C22050;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 3px 10px;
+}
+
+.my-request-card .status-badge {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.my-request-card .status-open {
+  background: #FFF0E0;
+  color: #B06000;
+}
+
+.my-request-card .status-matched {
+  background: #E0F0FF;
+  color: #0060B0;
+}
+
+.my-request-card .status-completed {
+  background: #E0F0E0;
+  color: #2A6A2A;
+}
+
+.my-request-card .posted-time {
+  font-size: 11px;
+  color: #B0708A;
+  margin-bottom: 10px;
+}
+
+.my-request-card .error-msg {
+  background: #FFE0E0;
+  color: #C02020;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.my-request-card .rating-section {
+  border-top: 1px solid #F0C0CC;
+  padding-top: 10px;
+}
+
+.my-request-card .rating-label {
+  font-size: 13px;
+  color: #B0708A;
+  margin-bottom: 8px;
+}
+
+.my-request-card .stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.my-request-card .star {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.my-request-card .star.inactive {
+  opacity: 0.3;
+}
+
+.my-request-card .received-btn {
+  width: 100%;
+  padding: 9px;
+  background: #E8426A;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.my-request-card .completed-note {
+  font-size: 13px;
+  color: #2A6A2A;
+  border-top: 1px solid #F0C0CC;
+  padding-top: 8px;
+}
